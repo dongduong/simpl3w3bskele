@@ -1,0 +1,25 @@
+{
+  "name": "Simple website skeleton",
+  "version": "0.0.1",
+  "description": "skeleton for simple Polymer website",
+  "main": "index.html",
+  "authors": [
+    "Dong Duong"
+  ],
+  "license": "MIT",
+  "homepage": "icesoft.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0",
+    "iron-elements": "PolymerElements/iron-elements#^1.0.0",
+    "paper-elements": "PolymerElements/paper-elements#^1.0.0",
+    "more-routing": "Polymore/more-routing",
+    "page": "visionmedia/page.js" 
+  }
+}
