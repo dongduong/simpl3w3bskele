@@ -3,3 +3,9 @@
 Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
 Author : Dong Duong
 */
+
+body {
+  background: #fafafa;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #333;
+}
