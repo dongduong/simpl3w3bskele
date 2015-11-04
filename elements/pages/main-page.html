@@ -8,12 +8,32 @@ Create: 03/11/2015
   <style>
     :host {
       display: block;
-      border: 1px solid red;
+      height: 100%;
+    }
+    
+    #Content{
+      height: 100%;
+    }
+    
+    paper-tabs{
+      background-color: var(--paper-light-blue-500)
     }
   </style>
 
   <template id="mainPage">
-    MAIN-PAGE
+    <div id="Content">
+      <paper-tabs selected="0">
+        <paper-tab link>
+          <a href="#link1" class="horizontal center-center layout">TAB ONE</a>
+        </paper-tab>
+        <paper-tab link>
+          <a href="#link2" class="horizontal center-center layout">TAB TWO</a>
+        </paper-tab>
+        <paper-tab link>
+          <a href="#link3" class="horizontal center-center layout">TAB THREE</a>
+        </paper-tab>
+      </paper-tabs>
+    </div>
   </template>
   
   <script>
